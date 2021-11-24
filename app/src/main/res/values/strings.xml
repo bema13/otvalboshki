@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Otvalboshki</string>
+    <string name="registration">Зарегестрироваться</string>
+    <string name="welcome">Добро пожаловать :)</string>
+    <string name="registration2">Войти</string>
+    <string name="next">Пропустить</string>
+    <string name="name">Имя</string>
+    <string name="Surname">Фамилия</string>
+    <string name="gmail">Адрес электронной почты</string>
+    <string name="number">Номер телефона</string>
+    <string name="next2">Далее</string>
+    <string name="stroke4" />
+    <string name="stroke3" />
+    <string name="stroke2" />
+    <string name="stroke1" />
+    <string name="account">Уже есть аккаунт?</string>
+    <string name="welcome2">Войти</string>
+    <string name="next3">Пропустить</string>
+    <string name="welcome3">Войти</string>
+    <string name="registration3">Зарегистрироваться</string>
+    <string name="registration4">Еще не зарегестрированы?</string>
+    <string name="hello">Радф видеть вас снова!</string>
+    <string name="next2">Далее</string>
+    <string name="code">Код подтверждения</string>
+    <string name="bars">Бары</string>
+    <string name="food6">Бары</string>
+    <string name="food5">Фаст-фуд</string>
+    <string name="food4">Столовые</string>
+    <string name="food3">Кофейни</string>
+    <string name="food2">Кафе</string>
+    <string name="food1">Рестораны</string>
+    <string name="menu1">Главная</string>
+    <string name="menu2">Список</string>
+    <string name="menu3">Места</string>
+    <string name="menu4">Профиль</string>
+    <string name="menu5">Поиск</string>
+</resources>
