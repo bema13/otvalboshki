@@ -19,8 +19,7 @@
     <string name="welcome3">Войти</string>
     <string name="registration3">Зарегистрироваться</string>
     <string name="registration4">Еще не зарегестрированы?</string>
-    <string name="hello">Радф видеть вас снова!</string>
-    <string name="next2">Далее</string>
+    <string name="hello">Рады видеть вас снова!</string>
     <string name="code">Код подтверждения</string>
     <string name="bars">Бары</string>
     <string name="food6">Бары</string>
@@ -34,4 +33,17 @@
     <string name="menu3">Места</string>
     <string name="menu4">Профиль</string>
     <string name="menu5">Поиск</string>
+    <string name="bublik">Бублик (1 ул.Тоголок Молдо)</string>
+    <string name="boris_coffee">Boris Coffee and Bakery (14 просп. Эркиндик)</string>
+    <string name="adriano_coffee">Adriano Coffee (87 ул. Исанова)</string>
+    <string name="search">Поиск</string>
+    <string name="number2">+996772723709</string>
+    <string name="name2">Джессика Кравиц</string>
+    <string name="sign_out">Выйти</string>
+    <string name="Code">Введите код из СМС</string>
+    <string name="information">О Приложении</string>
+    <string name="Story">История покупок</string>
+    <string name="Cashback">5% кэшбэк</string>
+    <string name="information2">У вас пока нет покупок</string>
+    <string name="news">Новости</string>
 </resources>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Otvalboshki">
         <activity
+            android:name=".Otvalboshki10"
+            android:exported="true" />
+        <activity
+            android:name=".Otvalboshki9"
+            android:exported="true" />
+        <activity
+            android:name=".Otvalboshki8"
+            android:exported="true" />
+        <activity
+            android:name=".Otvalboshki7"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="true" />
+        <activity
             android:name=".Otvalboshki6"
             android:exported="true" />
         <activity

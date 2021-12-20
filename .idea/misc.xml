@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki10.xml" value="0.18568840579710144" />
         <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki2.xml" value="0.25" />
-        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki3.xml" value="0.2" />
-        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki4.xml" value="0.17" />
-        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki5.xml" value="0.20108695652173914" />
-        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki6.xml" value="0.25" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki3.xml" value="0.25" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki4.xml" value="0.21" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki5.xml" value="0.22" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki6.xml" value="0.22" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki7.xml" value="0.22" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki8.xml" value="0.22" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/activity_otvalboshki9.xml" value="0.25" />
+        <entry key="..\:/Users/ucb/AndroidStudioProjects/Otvalboshki/app/src/main/res/layout/otvalboshki7.xml" value="0.18342391304347827" />
       </map>
     </option>
   </component>
