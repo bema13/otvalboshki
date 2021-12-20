@@ -39,8 +39,8 @@
 
 
         <LinearLayout
-            android:layout_width="349dp"
-            android:layout_height="49dp"
+            android:layout_width="299dp"
+            android:layout_height="47dp"
             android:layout_marginTop="60dp"
             android:orientation="horizontal">
 
@@ -50,7 +50,7 @@
                 app:cardCornerRadius="100dp">
 
                 <EditText
-                    android:id="@+id/textView20"
+                    android:id="@+id/code"
                     android:layout_width="44dp"
                     android:layout_height="44dp"
                     android:autofillHints="textnumber1"
@@ -71,7 +71,7 @@
                 app:cardCornerRadius="100dp">
 
                 <EditText
-                    android:id="@+id/textView21"
+                    android:id="@+id/code2"
                     android:layout_width="44dp"
                     android:layout_height="44dp"
                     android:autofillHints="textnumber2"
@@ -91,7 +91,7 @@
                 app:cardCornerRadius="100dp">
 
                 <EditText
-                    android:id="@+id/textView22"
+                    android:id="@+id/code3"
                     android:layout_width="44dp"
                     android:layout_height="44dp"
                     android:autofillHints="textnumber3"
@@ -109,7 +109,7 @@
                 app:cardCornerRadius="100dp">
 
                 <EditText
-                    android:id="@+id/textView23"
+                    android:id="@+id/code4"
                     android:layout_width="44dp"
                     android:layout_height="44dp"
                     android:autofillHints="textnumber4"
@@ -127,7 +127,7 @@
                 app:cardCornerRadius="100dp">
 
                 <EditText
-                    android:id="@+id/textView24"
+                    android:id="@+id/code5"
                     android:layout_width="44dp"
                     android:layout_height="44dp"
                     android:autofillHints="textnumber4"
@@ -145,28 +145,10 @@
                 app:cardCornerRadius="100dp">
 
                 <EditText
-                    android:id="@+id/textView25"
+                    android:id="@+id/code6"
                     android:layout_width="44dp"
                     android:layout_height="44dp"
                     android:autofillHints="textnumber5"
-                    android:background="@color/teal_700"
-                    android:inputType="textPersonName"
-                    android:text="@string/stroke1"
-                    android:textColor="@color/white"
-                    tools:ignore="LabelFor" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_marginStart="7dp"
-                app:cardCornerRadius="100dp">
-
-                <EditText
-                    android:id="@+id/textView26"
-                    android:layout_width="44dp"
-                    android:layout_height="44dp"
-                    android:autofillHints="textnumber6"
                     android:background="@color/teal_700"
                     android:inputType="textPersonName"
                     android:text="@string/stroke1"
@@ -184,11 +166,11 @@
             app:cardCornerRadius="100dp">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/next_to_home_frame"
                 android:layout_width="328dp"
                 android:layout_height="74dp"
                 android:background="#FEF85F"
-                android:text="@string/next2"
+                android:text="@string/welcome3"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />

@@ -32,6 +32,7 @@
                 android:background="@color/teal_700"
                 android:textStyle="bold"
                 android:textSize="16sp"
+                android:textColor="@color/yellow"
                 android:text="@string/Cashback"
                 tools:layout_editor_absoluteX="9dp"
                 tools:layout_editor_absoluteY="349dp" />
@@ -54,6 +55,7 @@
                 android:background="@color/teal_700"
                 android:textStyle="bold"
                 android:textSize="16sp"
+                android:textColor="@color/yellow"
                 android:text="@string/Story" />
         </androidx.cardview.widget.CardView>
 
@@ -73,6 +75,7 @@
                 android:background="@color/teal_700"
                 android:textStyle="bold"
                 android:textSize="16sp"
+                android:textColor="@color/yellow"
                 android:text="@string/information" />
         </androidx.cardview.widget.CardView>
 
@@ -90,136 +93,10 @@
                 android:layout_height="56dp"
                 android:textStyle="bold"
                 android:textSize="16sp"
+                android:textColor="@color/yellow"
                 android:background="@color/teal_700"
                 android:text="@string/sign_out" />
         </androidx.cardview.widget.CardView>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="391dp"
-        android:layout_height="85dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984">
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="5dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/options"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/places"
-            tools:layout_editor_absoluteX="95dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/home"
-            tools:layout_editor_absoluteX="172dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/search"
-            tools:layout_editor_absoluteX="252dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/profile"
-            tools:layout_editor_absoluteX="328dp"
-            tools:layout_editor_absoluteY="642dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="390dp"
-        android:layout_height="15dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984">
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menu2"
-            android:layout_marginStart="13dp"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="25dp"
-            tools:layout_editor_absoluteY="709dp" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menu3"
-            android:layout_marginStart="35dp"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="95dp"
-            tools:layout_editor_absoluteY="709dp" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menu1"
-            android:layout_marginStart="35dp"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="179dp"
-            tools:layout_editor_absoluteY="708dp" />
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menu5"
-            android:layout_marginStart="30dp"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="265dp"
-            tools:layout_editor_absoluteY="709dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menu4"
-            android:layout_marginStart="30dp"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="333dp"
-            tools:layout_editor_absoluteY="708dp" />
 
     </LinearLayout>
 
@@ -277,5 +154,20 @@
 
     </LinearLayout>
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="665dp"
+        android:background="#FFFFFF"
+        app:itemBackground="@color/yellow"
+        app:itemIconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
