@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context="MainActivity"
     android:background="@drawable/component_7">
 
     <LinearLayout
@@ -24,9 +24,7 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/component_9__1_"
             android:contentDescription="@null"
-            android:layout_marginBottom="300dp"
-            tools:layout_editor_absoluteX="50dp"
-            tools:layout_editor_absoluteY="72dp" />
+            android:layout_marginBottom="300dp" />
 
         <TextView
             android:id="@+id/textView"
@@ -34,9 +32,7 @@
             android:layout_height="109dp"
             android:text="@string/welcome"
             android:textColor="@color/white"
-            android:textSize="40sp"
-            tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="435dp" />
+            android:textSize="40sp" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="230dp"
@@ -49,7 +45,7 @@
                 android:layout_width="230dp"
                 android:layout_height="41dp"
                 android:text="@string/registration2"
-                android:background="#FEF85F" />
+                android:background="@color/yellow" />
 
         </androidx.cardview.widget.CardView>
 
@@ -63,7 +59,7 @@
                 android:layout_width="229dp"
                 android:layout_height="44dp"
                 android:text="@string/registration"
-                android:background="#FEF85F" />
+                android:background="@color/yellow" />
         </androidx.cardview.widget.CardView>
 
 
@@ -72,8 +68,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/next"
-            tools:layout_editor_absoluteX="174dp"
-            tools:layout_editor_absoluteY="691dp"
             android:textColor="@color/white"
             android:layout_marginTop="9dp"/>
 

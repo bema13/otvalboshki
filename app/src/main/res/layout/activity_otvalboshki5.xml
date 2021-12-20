@@ -8,133 +8,21 @@
     android:background="@drawable/component_18__1_">
 
 
-    <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="391dp"
-        android:layout_height="85dp"
-        android:orientation="horizontal"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="665dp"
+        android:background="#FFFFFF"
+        app:itemBackground="@color/yellow"
+        app:itemIconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984">
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="5dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/options"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/places"
-            tools:layout_editor_absoluteX="95dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/home"
-            tools:layout_editor_absoluteX="172dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/search"
-            tools:layout_editor_absoluteX="252dp"
-            tools:layout_editor_absoluteY="641dp" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="67dp"
-            android:layout_height="67dp"
-            android:layout_marginStart="13dp"
-            android:contentDescription="@null"
-            app:srcCompat="@drawable/profile"
-            tools:layout_editor_absoluteX="328dp"
-            tools:layout_editor_absoluteY="642dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="390dp"
-        android:layout_height="15dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984">
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="13dp"
-            android:text="@string/menu2"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="25dp"
-            tools:layout_editor_absoluteY="709dp" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="35dp"
-            android:text="@string/menu3"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="95dp"
-            tools:layout_editor_absoluteY="709dp" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="35dp"
-            android:text="@string/menu1"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="179dp"
-            tools:layout_editor_absoluteY="708dp" />
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:text="@string/menu5"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="265dp"
-            tools:layout_editor_absoluteY="709dp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:text="@string/menu4"
-            android:textColor="@color/black"
-            tools:layout_editor_absoluteX="333dp"
-            tools:layout_editor_absoluteY="708dp" />
-
-    </LinearLayout>
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/menu" />
 
     <LinearLayout
         android:layout_width="360dp"
@@ -142,7 +30,6 @@
         android:layout_marginTop="228dp"
         android:layout_marginBottom="13dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
@@ -265,6 +152,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@null"
                     app:srcCompat="@drawable/_654512" />
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -287,6 +175,5 @@
 
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
